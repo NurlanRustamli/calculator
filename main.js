@@ -46,10 +46,12 @@ function pow() {
 }
 function pi() {
     screen.value = 3.14159;
-}function root() {
+}
+function e() {
+    screen.value=2.71828;
+}
+function root() {
     screen.value = Math.sqrt(screen.value,2);
-}function root() {
-    screen.value = 2.71828;
 }
 function fact() {
     var i ,num,f;
